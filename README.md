@@ -102,7 +102,7 @@ Instantiation of the VGA CRT controller, Instantiation of the Audio controller, 
 ### Modify `or1200/or1200_defines.v`
 - Enable `` `define OR1200_ALTERA_LPM ``
 - Disable `` `define OR1200_XILINX_RAMB4 ``
-- Enable `` `define OR1200_NO_DC`, ` ``define OR1200_NO_IC ``, ` ``define OR1200_NO_DMMU `` and ` ``define OR1200_NO_IMMU ``
+- Enable `` `define OR1200_NO_DC ``, `` `define OR1200_NO_IC ``, `` `define OR1200_NO_DMMU `` and `` `define OR1200_NO_IMMU ``
 - Disable `` `define OR1200_CLKDIV_2_SUPPORTED ``
 - Disable `` `define OR1200_RFRAM_DUALPORT ``
 - Enable `` `define OR1200_RFRAM_GENERIC ``
